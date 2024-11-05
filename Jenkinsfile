@@ -21,7 +21,7 @@ pipeline {
           sh "npm test"
         }
     }
-    stage('SonarQube Analysis') {
+    stage('SonarQube Judges and Condemns our work') {
       environment {
         scannerHome = tool 'sonarqube'
         }
